@@ -73,3 +73,6 @@ attrib +r "%dir_path%"
 :: set hidden and read-only flag for the ini file
 attrib +r "%ini_file%"
 attrib +h "%ini_file%"
+
+:: set hidden for the ico file
+attrib +h "%dir_path%\%icon_name%"
