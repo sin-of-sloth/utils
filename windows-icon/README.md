@@ -17,3 +17,13 @@ _Notes:_
 - _For file/directory names with spaces, enclose them in double quotes `""`_
 - _Icon files typically have the extension `.ico` for use in Windows_
 
+For example, if you ran
+```
+> Desktop\icon.bat Desktop\test\Nobody Downloads\hamham.ico
+> Desktop\icon.bat Desktop\test\Expects Downloads\blurred-shocked-cat.ico
+> Desktop\icon.bat "Desktop\test\the Spanish Inquisiton" Downloads\spanish.ico
+```
+
+You'd get folders like so:
+
+![custom folders](./assets/img.png)
